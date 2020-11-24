@@ -22,9 +22,6 @@ def contacto():
     celular = request.form.get('celular')"""
 
     observacion = request.form.get('observacion')
-
-
-
     return 'Guardando información ' + observacion
 
 @app.route('/usuarios')
